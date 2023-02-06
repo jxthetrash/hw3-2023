@@ -14,8 +14,8 @@ header, nav{
 nav ul li{
     display: inline;
     margin: auto;
-    padding: 5%;
-    font-size: larger;
+    padding: 2%;
+    font-size: large;
     background-color:rgb(215, 236, 255);
     /* Set display, margin, padding, font-size, background-color */
 }
@@ -31,27 +31,35 @@ a:visited{
 }
 
 nav a.current{
-    text-decoration: black wavy;
+    text-decoration: underline wavy;
     text-transform: uppercase;
+    text-underline-offset: 4px;
     /* Set text decoration, transformation, and underline properties */
 }
 
 
 h1{
+    font-family: Merriweather, Anton, "Times New Roman";
+    font-size: xx-large;
    /*Set font and font size*/
 
 }
 
 h2{
+    font-family: Anton, "Times New Roman", Courier;
+    font-size: x-large;
+    text-align: center;
     /*Set font, font size, and alignment*/
 }
 
 h3{
+    font-size: larger;
     /*Set font size*/
 
 }
 
 h1, h2, h3{
+    margin-top: 2%;
     /*Set margin */
 
 }
@@ -83,10 +91,12 @@ h1, h2, h3{
     
 
 p + p {
-     /* Set indentation */
-  }
-  
+    text-indent: 50px;
+    /* Set indentation */
+}
+
 p{
+    margin: 2%;
      /* Set margin */
 }
 
