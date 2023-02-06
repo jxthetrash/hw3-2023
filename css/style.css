@@ -1,27 +1,38 @@
 body{
-   /* Set line spacing */
+   line-height: 150%;
 }
 
 
 header, nav{
-    /* Set padding and margin */
+    margin: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1px;
+    padding-bottom: 3%;
 
 }
 nav ul li{
+    display: inline;
+    margin: auto;
+    padding: 5%;
+    font-size: larger;
+    background-color:rgb(215, 236, 255);
     /* Set display, margin, padding, font-size, background-color */
-
 }
 
 nav a{
+    text-decoration: none;
     /* Set text decoration*/
 }
 
 a:visited{
+    color: black;
     /* Set color */
-
 }
 
 nav a.current{
+    text-decoration: black wavy;
+    text-transform: uppercase;
     /* Set text decoration, transformation, and underline properties */
 }
 
