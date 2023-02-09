@@ -122,7 +122,7 @@ p{
 
 .grid ul li{
     line-height: 100%;
-    list-style-image: url('/images/sketchbook.png');;
+    list-style-image: url('/images/sketchbook.png');
     margin-left: 20%;
     margin-bottom: 5%;
     /* Set margin, line-spacing, list styling  */
